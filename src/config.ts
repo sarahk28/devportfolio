@@ -1,92 +1,92 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Sarah Kim",
+  title: "Student at Marlborough School",
+  description: "Portfolio website of Sarah Kim",
+  accentColor: "#92b7e4",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "sarahk2028@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sarah-kim-sk1/",
+    twitter: "",
+    github: "https://github.com/sarahk28",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a high school student interested in neural engineering, robotics, and building/coding useful tools.",
+  skills: ["Java", "Python", "HTML", "CSS", "JavaScript", "Computer-Aided Design (CAD)"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "\"Dino Dash\" Game",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A simple, playable mockup of the \"No-Wifi Dino Game\" made in !",
+      link: "https://aidevroundup.com/?ref=https://github.com/sarahk28/APCSA/tree/main/FinalProject",
+      skills: ["Java"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Flywheel Launcher for FIRST Tech Challenge (FTC)",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "This robotic subsystem served as a scoring mechanism during the \"DECODE\" season of FTC. It utilized a PID controller to automatically aim and adjust motor power based on goal distance.",
+      link: "https://marlborough.onshape.com/documents/27cd7b4e1496d2194a88d019/w/a3b3b7e136c2f600668e2556/e/bdb945b15d042992da5740b1?renderMode=0&uiState=6a4c8c51196fc31abb95ee74",
+      skills: ["Java", "Computer-Aided Design (CAD)"],
     },
-    {
+    /*{
       name: "ExtensionKit",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
-    },
+    },*/
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "ThinkNeuro",
+      title: "Software Engineering Intern",
+      dateRange: "June 2026 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Utilized Git for robust version control, actively participating in branching strategies, pull requests, and code reviews to maintain code quality and ensure seamless team integration in a production environment.",
+        "Received a 15% scholarship for exceptional merit as part of a highly selective group of Early Decision admits.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Art MEDified",
+      title: "C.R.A.F.T. Research Scholars Intern",
+      dateRange: "Jun 2026 - Present",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Complete an independent research study on the integration of patient health literacy into the design of  implantable electronic devices via bibliometric analysis.",
+        "Gain first authorship on a portfolio with a graduate-level abstract, e-poster, presentation video, and resume.",
+        "Selected to present at a research conference with over 300 participants to share findings.",
       ],
     },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+    /*{
+      company: "",
+      title: "",
+      dateRange: "",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "",
+        "",
+        "",
       ],
-    },
+    },*/
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Marlborough School",
+      degree: "High School Diploma",
+      dateRange: "2022-2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Academic Achievement Award (2025)",
+        "Student Council for 2 years",
+        "Asian Affinity Club Leader for 2 years",
+        "Vice President of STEMsters Chapter",
       ],
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+    /*{
+      school: "",
+      degree: "",
+      dateRange: "",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "",
+        "",
+        "",
       ],
-    },
+    },*/
   ],
 };
