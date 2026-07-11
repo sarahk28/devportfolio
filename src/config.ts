@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/sarahk28",
   },
   aboutMe:
-    "I am a high school student interested in neural engineering, robotics, and building/coding useful tools.",
+    "I am a high school student interested in brain-computer interfaces, robotics, and hardware design. I am an aspiring neural engineer, and hope to build and code various useful tools.",
   skills: ["Java", "Python", "HTML", "CSS", "JavaScript", "Computer-Aided Design (CAD)"],
   projects: [
     {
